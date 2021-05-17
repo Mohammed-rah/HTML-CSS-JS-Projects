@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.486);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.container.active {
+  display: flex;
+}
+p {
+  font-weight: bolder;
+}
+.pop-up {
+  background-color: white;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.753);
+  position: relative;
+}
+.pop-up button {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  color: purple;
+  background-color: white;
+}
+button {
+  color: white;
+  background-color: purple;
+  font-size: 25px;
+  border-radius: 4px;
+  border: none;
+}
