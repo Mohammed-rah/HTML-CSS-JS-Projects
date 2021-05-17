@@ -1,0 +1,15 @@
+body {
+  display: flex;
+
+  justify-content: center;
+  min-height: 100vh;
+}
+div {
+  background-color: blueviolet;
+  height: 20px;
+  transition: transform 4.2s ease-in-out;
+  border-radius: 5px;
+  border: 0.5px solid rgba(103, 211, 15, 0.959);
+  font-weight: bolder;
+  color: chartreuse;
+}
